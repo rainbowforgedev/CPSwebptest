@@ -13,9 +13,9 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				 <img src={welcome} alt="Welcome" /> 
-				<!-- <enhanced:img src="$lib/images/svelte-welcome.png" alt="Welcome" /> -->
+				<!-- <source srcset={welcome} type="image/webp" /> -->
+				 <img src={welcome} alt="Welcome" type="image/webp" /> 
+				
 			</picture>
 		</span>
 
@@ -28,8 +28,14 @@
 
 	<Counter />
 </section>
-
+<enhanced:img src="$lib/images/svelte-welcome.png" alt="Welcome" /> 
+<enhanced:img src="$lib/images/29132-8-bhagat-singh-photos.png" alt="Welcome" /> 
 <style>
+
+	img {
+		width: 100%;
+		height: auto;
+	}
 	section {
 		display: flex;
 		flex-direction: column;
