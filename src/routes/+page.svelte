@@ -1,6 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
+	import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp';
 	// import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
 
@@ -30,6 +31,7 @@
 </section>
 <enhanced:img src="$lib/images/svelte-welcome.png" alt="Welcome" /> 
 <enhanced:img src="$lib/images/29132-8-bhagat-singh-photos.png" alt="Welcome" /> 
+<img src={bhagat} alt="Bhagat" type="image/webp" /> 
 <style>
 
 	img {
