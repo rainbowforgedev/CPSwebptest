@@ -1,7 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
-	import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp';
+	import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp?url';
 	// import welcomeFallback from '$lib/images/svelte-welcome.png';
 </script>
 
