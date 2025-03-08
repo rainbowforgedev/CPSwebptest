@@ -14,7 +14,8 @@
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
-				<enhanced:img src="$lib/images/svelte-welcome.png" alt="Welcome" />
+				 <img src={welcome} alt="Welcome" /> 
+				<!-- <enhanced:img src="$lib/images/svelte-welcome.png" alt="Welcome" /> -->
 			</picture>
 		</span>
 
