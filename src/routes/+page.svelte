@@ -1,6 +1,6 @@
 <script>
 	
-	// import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp?url';
+	import bhagat from '$lib/images/bhagat-singh-photos.webp?url';
 	
 </script>
 
@@ -13,9 +13,11 @@
 	<h1>ImageTest
 		</h1>
 		<h3>Direct Src:</h3>
-	<img src="./src/lib/images/29132-8-bhagat-singh-photos.webp" alt="Bhagat" type="image/webp" /> 
+	
+	<!-- There might be an unrelated issue with importing img src=".webp" because it won't build locally with npm run build either.	However, the imported src successfully builds locally with npm run build, but won't build on cloudflare pages. -->
+	<img src="./src/lib/images/bhagat-singh-photos.webp" alt="Bhagat" type="image/webp" />  
 	<h3>Imported Src:</h3>
-<!-- <img src={bhagat} alt="Bhagat" type="image/webp" />  -->
+<img src={bhagat} alt="Bhagat" type="image/webp" /> 
 	</section>
 
 <style>
