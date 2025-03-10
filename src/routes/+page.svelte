@@ -1,8 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
-	// import welcome from '$lib/images/svelte-welcome.webp';
 	import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp?url';
-	// import welcomeFallback from '$lib/images/svelte-welcome.png';
+	
 </script>
 
 <svelte:head>
@@ -11,27 +10,14 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<!-- <source srcset={welcome} type="image/webp" /> -->
-				 <img src={welcome} alt="Welcome" type="image/webp" /> 
-				
-			</picture>
-		</span>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
-</section>
-<enhanced:img src="$lib/images/svelte-welcome.png" alt="Welcome" /> 
-<enhanced:img src="$lib/images/29132-8-bhagat-singh-photos.png" alt="Welcome" /> 
+	<h1>ImageTest
+		</h1>
+		<h3>Direct Src:</h3>
+	<img src="./src/lib/images/29132-8-bhagat-singh-photos.webp?url" alt="Bhagat" type="image/webp" /> 
+	<h3>Imported Src:</h3>
 <img src={bhagat} alt="Bhagat" type="image/webp" /> 
+	</section>
+
 <style>
 
 	img {
