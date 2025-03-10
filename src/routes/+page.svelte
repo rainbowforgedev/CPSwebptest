@@ -1,6 +1,6 @@
 <script>
 	import Counter from './Counter.svelte';
-	import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp?url';
+	// import bhagat from '$lib/images/29132-8-bhagat-singh-photos.webp?url';
 	
 </script>
 
@@ -15,7 +15,7 @@
 		<h3>Direct Src:</h3>
 	<img src="./src/lib/images/29132-8-bhagat-singh-photos.webp?url" alt="Bhagat" type="image/webp" /> 
 	<h3>Imported Src:</h3>
-<img src={bhagat} alt="Bhagat" type="image/webp" /> 
+<!-- <img src={bhagat} alt="Bhagat" type="image/webp" />  -->
 	</section>
 
 <style>
