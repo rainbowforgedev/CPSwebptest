@@ -14,8 +14,11 @@
 		</h1>
 		<h3>Direct Src:</h3>
 	
-	<!-- There might be an unrelated issue with importing img src=".webp" because it won't build locally with npm run build either.	However, the imported src successfully builds locally with npm run build, but won't build on cloudflare pages. -->
-	<img src="./src/lib/images/bhagat-singh-photos.webp" alt="Bhagat" type="image/webp" />  
+	<!-- There might be an unrelated issue with importing img src=".webp" because it won't build locally with npm run build either.	However, the imported src successfully builds locally with npm run build, but won't build on cloudflare pages. So I'm commenting this out, to focus on the part that won't build on Cloudflare pages, and troubleshoot this part later on.
+	 
+	<img src="./src/lib/images/bhagat-singh-photos.webp" alt="Bhagat" type="image/webp" /> 
+	-->
+	 
 	<h3>Imported Src:</h3>
 <img src={bhagat} alt="Bhagat" type="image/webp" /> 
 	</section>
